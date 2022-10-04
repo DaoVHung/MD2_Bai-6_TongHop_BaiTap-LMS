@@ -8,15 +8,11 @@ public class test {
 
 
 
-        MovablePoint newPo = new MovablePoint(4,4,10,10);
-        System.out.println(newPo.toString());
-        newPo = new MovablePoint(newPo.getX(),newPo.getY(),10,20);
-        System.out.println(newPo.toString());
-        ((MovablePoint) newPo).move();
-        System.out.println(newPo);
-        MovablePoint diemKhac = new MovablePoint(20,20);
-        System.out.println(diemKhac);
-        diemKhac.move();
-        System.out.println(diemKhac);
+        MovablePoint newPoint1 = new MovablePoint(4,4,10,10);
+        System.out.println(newPoint1.toString());
+       MovablePoint newPoint2 = new MovablePoint(Point1.getX(),Point1.getY(),10,20);
+        System.out.println(newPoint2);
+        newPoint2.move();
+        System.out.println(newPoint2);
     }
 }
